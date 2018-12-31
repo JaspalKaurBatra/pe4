@@ -49,8 +49,8 @@ public class StringTransposeTest
     @Test
     public void TestCase3()
     {
-        String passed = "Hey  you";
-        String expected = "uoy  yeH";
+        String passed = "Hey,you";
+        String expected = "uoy,yeH";
         assertEquals(expected,object.setStringVar(passed));
     }
 }
